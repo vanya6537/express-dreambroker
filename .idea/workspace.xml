@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee7b7e4-b410-42d5-a6ed-b2ebb902ea5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/analyze.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591868294505</updated>
-      <workItem from="1591868296441" duration="4439000" />
+      <workItem from="1591868296441" duration="4874000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <created>1591869702225</created>
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591871949091</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test endpoint with logic that analyses string">
+      <created>1591875629292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591875629292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,13 +99,14 @@
     <MESSAGE value="INIT" />
     <MESSAGE value="Vercel Serverless INIT" />
     <MESSAGE value="Vercel Serverless Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vercel Serverless Delete" />
+    <MESSAGE value="Test endpoint with logic that analyses string" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test endpoint with logic that analyses string" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1591871948386">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1591875628529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591871948386" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591875628529" />
     <state x="550" y="332" key="Github.ShareDialog" timestamp="1591868336757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -112,9 +119,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="119" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591871071856" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1591871953582">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1591875644865">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591871953582" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591875644865" />
   </component>
 </project>

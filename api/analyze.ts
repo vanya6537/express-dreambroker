@@ -6,7 +6,7 @@ export default (request: NowRequest, response: NowResponse) => {
 
     const trimmedText = text.trim()
     const noSpacesText = text.split(space).join('')
-    const wordCount = trimmedText.split(space).length
+    const wordCount = trimmedText.split(space).filter(value => value !== '').length
     let characterCounter = {}
 
     trimmedText.split('').forEach(value => {
