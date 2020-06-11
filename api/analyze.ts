@@ -1,8 +1,10 @@
 import {NowRequest, NowResponse} from '@vercel/node'
 
 export default (request: NowRequest, response: NowResponse) => {
-    const {text = "hello 2 times  "} = request.body
+    let {text = "hello 2 times  "} = request.body
     const space = ' '
+
+    text = text.toLowerCase()
 
     const trimmedText = text.trim()
     const noSpacesText = text.split(space).join('')
@@ -10,7 +12,7 @@ export default (request: NowRequest, response: NowResponse) => {
     let characterCounter = {}
 
     trimmedText.split('').forEach(value => {
-        if (value.match(/[a-z]/i)) {
+        if (value.match(/[a-z]/)) {
             if (characterCounter[value]) {
                 characterCounter[value]++
             } else {
@@ -18,13 +20,15 @@ export default (request: NowRequest, response: NowResponse) => {
             }
         }
     })
-// in alphabetic order
+    // in alphabetic order
     let englishLetters = []
     for (let i = 0; i < 26; i++) {
         englishLetters.push((i + 10).toString(36))
     }
-// push array of big letters in alphabetic order
-    englishLetters = englishLetters.concat(englishLetters.map(value => value.toUpperCase()))
+
+    // no Big letters :)
+    // push array of big letters in alphabetic order
+    // englishLetters = englishLetters.concat(englishLetters.map(value => value.toUpperCase()))
 
     let characterCount = englishLetters.filter(value => value in characterCounter).map(value => {
         let obj = {}
