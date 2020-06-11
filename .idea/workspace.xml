@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ee7b7e4-b410-42d5-a6ed-b2ebb902ea5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7ee7b7e4-b410-42d5-a6ed-b2ebb902ea5d" name="Default Changelist" comment="Vercel Serverless INIT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591868294505</updated>
-      <workItem from="1591868296441" duration="2374000" />
+      <workItem from="1591868296441" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <created>1591869702225</created>
@@ -69,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591870112922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Vercel Serverless INIT">
+      <created>1591871255792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591871255792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,10 +85,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Vercel Serverless INIT" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1591870112614">
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1591871334961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591870112614" />
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591871334961" />
     <state x="550" y="332" key="Github.ShareDialog" timestamp="1591868336757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -97,9 +101,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="119" y="1" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591871071856" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1591870116124">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1591871318269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591870116124" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591871318269" />
   </component>
 </project>
